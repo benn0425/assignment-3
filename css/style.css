@@ -77,3 +77,72 @@ h1 {
 
 }
 
+#services .wrapper {
+    /* display: flex; */
+    background-color: #fafafa;
+}
+
+#service-can-do {
+    max-width: 940px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#services-content {
+  display: grid;
+  max-width: 940px;
+  grid-template-columns: repeat(3, 1fr);  
+  gap: 40px;
+}
+
+#services-content article {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 1em;
+    margin: auto;
+}
+
+#services-content a:link,
+#services-content a:visited {
+    padding: .8em 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 4px;
+
+    margin: auto;
+    margin-left: 0px;
+}
+
+#services-content a:hover,
+#services-content a:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+#work .wrapper {
+    max-width: 940px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "div1 div1 div1 div2 div2 div2"
+    "div1 div1 div1 div2 div2 div2"
+    "div3 div3 div4 div4 div5 div5"
+    "div3 div3 div4 div4 div5 div5"
+    ;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
