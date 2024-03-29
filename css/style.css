@@ -71,6 +71,11 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    /* font-size: 0.75em; */
+}
+
+#about-me p {
+    font-size: 0.75em;   
 }
 
 #about-me img {
@@ -81,11 +86,13 @@ h1 {
 #services .wrapper {
     /* display: flex; */
     background-color: #fafafa;
+    padding: 0 0 2em 0;
 }
 
 #service-can-do {
-    max-width: 940px;
+    max-width: 65%;
     text-align: center;
+    margin: 0 auto;
     padding-top: 40px;
 }
 
@@ -93,7 +100,7 @@ h1 {
   display: grid;
   max-width: 940px;
   grid-template-columns: repeat(3, 1fr);  
-  gap: 40px;
+  gap: 30px;
 }
 
 #services-content article {
@@ -102,6 +109,10 @@ h1 {
     background-color: #fff;
     padding: 1em;
     margin: auto;
+}
+
+#services-content p {
+    font-size: 0.75em;
 }
 
 #services-content a:link,
@@ -124,12 +135,28 @@ h1 {
 }
 
 #work .wrapper {
-    max-width: 940px;
-    text-align: center;
     padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#work .wrapper h2,
+#work .wrapper p {
+    max-width: 65%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#work .wrapper h2 {
+    padding-bottom: 0.5em;
+}
+
+#work .wrapper p {
+    font-size: 0.7em;
+    padding-bottom: 2em;
 }
 
 .img-grid {
+    padding: 0 1em;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -170,5 +197,6 @@ footer {
     background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
+    padding: 2em 0;
+    font-size: 0.5em;
 }
