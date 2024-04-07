@@ -50,6 +50,7 @@ nav ul li a:focus {
     height: 600px;
     background-image: url(../images/hands-typing.jpg);
     background-color: rgb(53, 53, 53);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     filter: grayscale(0.7);
